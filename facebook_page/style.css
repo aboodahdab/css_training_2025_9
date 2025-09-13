@@ -1,0 +1,57 @@
+html,
+body {
+  background-color: rgb(37, 45, 53);
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+  margin: 0;
+  display: flex;
+}
+#container {
+  border-radius: 8px;
+  background-color: black;
+
+  width: 440px;
+  padding: 10px;
+  height: 500px;
+}
+p {
+  margin: 0;
+}
+select {
+  color: white;
+  background-color: transparent;
+}
+input {
+  padding: 14px;
+
+  background-color: transparent;
+  width: 360px;
+  border-radius: 2px;
+  border: 0.2px solid rgba(251, 251, 251, 0.5);
+}
+select:focus,
+input:focus {
+  border: none;
+  border: 0.2px solid rgba(68, 107, 216, 1);
+}
+#create-account-div {
+  margin-left: 32px;
+
+  margin-top: 4px;
+
+  margin-bottom: 4px;
+}
+#name_field {
+  margin-bottom: 28px;
+}
+#email_field {
+  margin-bottom: 28px;
+}
+#date_div {
+  margin-top: 10px;
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}

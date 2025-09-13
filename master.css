@@ -1,0 +1,16 @@
+body {
+  background-color: white;
+}
+.one {
+  background-color: rgb(12, 169, 169) !important;
+
+  /* height: 150px;
+  width: 250px;
+  transition: width 1.5 0.5 ease-in-out,
+    margin-top 1.5 0.5 ease-in-out margin-left; */
+}
+/* .one:hover {
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+} */
